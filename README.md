@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+GCC Analytics Dashboard (2010–2024)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full interactive analytics dashboard analyzing the role of digital innovation, financial inclusion, and sustainability in shaping GCC trade balance.
 
-Currently, two official plugins are available:
+ 🔗 Live Demo
+Click below to view the full dashboard:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [Open Live Dashboard](https://gcc-analytics-9ai2.bolt.host)
 
-## React Compiler
+ 📊 Features
+- Executive Dashboard  
+- GCC Country Comparison  
+- Trade Balance Analytics  
+- Digital Innovation Metrics  
+- Financial Inclusion  
+- Sustainability Indicators  
+- Machine Learning Results  
+- Correlation Matrix  
+- Insights & Recommendations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 🛠 Tech Stack
+- React + TypeScript  
+- Vite  
+- Tailwind CSS  
+- shadcn/ui  
+- Recharts  
+- Bolt.new Deployment  
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Made with ❤️ by Lana 
